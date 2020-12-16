@@ -1,0 +1,84 @@
+:root {
+  --grey: 1px solid #a0aab5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.profile {
+  background-color: #e7ecf1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 32rem;
+}
+
+.description {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  height: auto;
+  box-shadow: 0px 0px 2px 0px rgba(128, 123, 128, 1);
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+.name {
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.tag,
+.location {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #a0aab5;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: #fff;
+  width: 18rem;
+  height: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background-color: #f2f6f9;
+  box-shadow: 0px 0px 2px 0px rgba(128, 123, 128, 1);
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #a0aab5;
+  padding-bottom: 0.3rem;
+}
+
+.quantity {
+  font-weight: bold;
+}
